@@ -9,6 +9,19 @@ h1,h2,h3,p {
     font-family: "Verdana";
 }
 
+.headline h2 {
+    font-size: 42px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.headline h3 {
+    font-size: 16px;
+    font-weight: normal;
+    color: aquamarine;
+    text-decoration: underline;
+}
+
 
 /*Header Section*/
 
@@ -27,13 +40,53 @@ h1,h2,h3,p {
     color: white;
 }
 
-.headline h3 {
-    font-size: 16px;
-    font-weight: normal;
-    color: aquamarine;
-}
-
 .hero {
     display: flex;
     justify-content: center;
+}
+
+
+/*Content Section*/
+
+
+.content-section {
+    display:  flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.content-section .headline {
+    font-family: "Verdana";
+}
+
+.content-section .headline  p {
+    font-size: 21px;
+    color: #808080;
+}
+
+.img-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   
+}
+
+.content-section .img-content img{
+    width: 1000px;
+    height: auto;
+}
+
+
+/*Footer*/
+
+
+.footer {
+    margin-top: 30px;
+}
+
+.footer p {
+    color: #808080;
+    text-align: right;
+    font-size: 21px;
 }
